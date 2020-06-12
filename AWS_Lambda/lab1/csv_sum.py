@@ -24,5 +24,5 @@ def lambda_handler(event, context):
             continue
     #Output the net profits
     return {
-        'net_profits': total
+        "net_profits": total
     }
